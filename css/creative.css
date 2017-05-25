@@ -283,7 +283,9 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
-
+#services video {
+  width: 100%;
+}
 .history-image {
   height: 300px;
   overflow: hidden;
