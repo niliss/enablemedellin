@@ -150,12 +150,14 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('https://s3.amazonaws.com/prod_object_assets/assets/334541803682607?AWSAccessKeyId=ASIAIYBWTUN4NDV7RCBA&Expires=1495726777&Signature=k2s1RvjhWkKbFaYkP85KCCM%2BNgQ%3D&x-amz-security-token=FQoDYXdzEPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDNm37yV6dAzv9nmXUSK3A2GMCYu%2BepYFeZ0E7cBoLnpF4%2FbhS%2BJJSxx3QyB%2BZ6JLddMUuTxRrde3%2Fzo8efeFe%2BNfZwajxmtTD9vxMOf8Rh%2BgYL9oUaXoZmNtviysufjMmPAwQ6UqoAB0ZxHxNfBaGSKEdWrg29OI53Eq8DfSGHh%2BBp295d8yeNsq5bL6zlf2dbgSbz7QuBOtwMPG538cM94Des%2FbBScve60S6rRXxC%2B70mEJej9ao5X8beqfL7d3kvNMyzSigB6axFsCuTgfCVA2nsnkVs0q8J6HOu%2BzeoY%2BGNQGyX8GpdhJ25oikW%2Fk1tO0gGBvDSpV5wUT1F9UHyAr5OKW6sg%2ByLLWIZ%2B93VBmFiIbeLmzGVn415yHn%2BSSCypTSyikzpWuqnU6amVfFxS5rq1%2BxZudYQk6Z%2F0Ljd2sNXi6PyQUUGQaRAQlKbDiHbfWvPSiQTniqDwI8WF89ZnbgP%2FSVK1hsCzrLwE4QkOhF5zKyNmgZODPfItJDfhj5fLC7wTNS2ga4%2Be5I12jqwTJZHvTZs3EDv1D1y8uBuLeGgi2d1A9XM%2BXmHivNe5Ya%2FB8s8n3HsypFwLdNp6JUMeabDNa8BQoiu2byQU%3D#_=_');
+  background-repeat: no-repeat;
+  background-color: black;
   text-align: center;
   color: white;
 }
@@ -210,6 +212,10 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
   margin-top: 0;
+}
+#about .title-img {
+  width: 400px;
+  margin-bottom: 30px;
 }
 .service-box {
   max-width: 400px;
@@ -277,6 +283,31 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
+#services video {
+  width: 100%;
+}
+.history-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.history-image img {
+  width: 100%;
+}
+
+.history-text {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+#our-process {
+  height: 800px;
+  background: url('https://s3.amazonaws.com/prod_object_assets/assets/334574041344660?AWSAccessKeyId=ASIAJW2TVEFCXRAIYM2A&Expires=1495723822&Signature=%2FYEJtwaGm6BnCY%2BIBzmtg8kh0iw%3D&x-amz-security-token=FQoDYXdzEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDHh2iEMAyw6%2FwSYqcyK3A%2BiHpXdXDOoMjHt28mayOGrtpAwn737vTw1Dv92Vbwg%2FNfy370sxzr1NpQ6wqCQPhrfzCeDLOAQxlwiv%2Fmt5nR%2BWJ310MRc2mMdVQDacmbrOgJjAf%2F2zb6vbaGM1%2FcDMuHDDuFWhdsj8%2FPMLnQ2Fz1wJ5A7gVQJOOnz8D%2FF5kqvqgwewpHrWDB0WFTT7subMxy3E31ScEUVT6I8Urwkz34OhUYk6O%2BmRj%2BfPrr0s%2FSVTCz1I3DqVYP58vIUQ0Llkwmo3moxBmgFrQMlKB1rHIgBXGGMIgofgDXH5R7LWGD7HBePSH666fkfYPM%2FYUI2cIpLQPbZPztZl2O3tzFPmxigHmUzR4crIvsuQ4hTJEuysGxZKvC%2Fl%2B2UoAvBKBgAda04KVl5OKJPqSIEEM8a%2FjYMcyQniahLt6wNt%2BygsyEZMrb%2BcoAfD3zKdeJjrrMVbYvkwnUCDEpP39MSl8ETfXZTjx4X3BOkgA1ir%2FUbV6zDVoIDrJ0VkjI41tAeJahi%2FwnqCuGAVpi2eV%2FXVsO%2BZ8eoT%2FrxCR7MGvwmFDJxitENzdHX5Hg3bbnzE2qgjpheworP1ce1Q3%2FwoutCbyQU%3D#_=_') center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
