@@ -277,6 +277,22 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
+
+.history-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.history-image img {
+  width: 100%;
+}
+
+.history-text {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
